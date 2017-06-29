@@ -14,7 +14,7 @@ $(document).ready(function(){
   //   event.preventDefault();
   // });
 
-  stop page refresh
+  //stop page refresh
   $('form').on('submit', function(event){
     var name = $('#name').val();
     $("#hello").text("Hello, " + name);
